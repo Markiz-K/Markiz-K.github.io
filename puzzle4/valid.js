@@ -4,9 +4,8 @@ var puzzle_error = document.getElementById('puzzle_error');
 
 puzzle.addEventListener('textInput', puzzle_Verify);
 
-//hash = tankred i klorynda
-
-var key = "a4175e0e5c8724af88c947c9864ceb0c272e722fe08de5640dfd1e707e9879d4";
+//finlandia
+var key = "c4b8bef691d04a753e9d227dbeadcb57f6408bbd66f917520ab01463e50673f1";
 
 /*funkcja pobiera input okienka, zmienia na lowercase i hashuje
 jesli znashowana wartość jest równa ustalonego zahashowanego klucza to przechodzisz dalej*/

@@ -4,9 +4,8 @@ var puzzle_error = document.getElementById('puzzle_error');
 
 puzzle.addEventListener('textInput', puzzle_Verify);
 
-//hash = tankred i klorynda
-
-var key = "a4175e0e5c8724af88c947c9864ceb0c272e722fe08de5640dfd1e707e9879d4";
+//panorama
+var key = "af52efab194fb2c1f21f6444cd6b8b9070e1973fcaccefafd012ec1dcf26fa9b";
 
 /*funkcja pobiera input okienka, zmienia na lowercase i hashuje
 jesli znashowana wartość jest równa ustalonego zahashowanego klucza to przechodzisz dalej*/
